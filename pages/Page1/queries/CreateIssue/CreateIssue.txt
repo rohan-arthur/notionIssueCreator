@@ -1,0 +1,5 @@
+{
+	"title": {{this.params.title}},
+  "body": {{this.params.url}},
+  "labels": ["Integrations Pod General", "Bug"]
+}

@@ -1,0 +1,13 @@
+{
+    properties: {
+      'Github issue': {
+        'rich_text': [
+          {
+            'text': {
+              'content': {{this.params.issueLink}}
+            }
+          }
+        ]
+      }
+    }
+  }
