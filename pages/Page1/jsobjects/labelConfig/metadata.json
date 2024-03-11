@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "labelConfig",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_labelConfig",
+  "deleted": false,
+  "gitSyncId": "65e1814da87ac00c2a5ea14c_65e4fc83eb9a6e271ab2d47e"
+}

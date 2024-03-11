@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1280,
+          "bottomRow": 970,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,13 +29,11 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_GetNotionDB",
-              "name": "GetNotionDB",
+              "id": "Page1_getAllLabels",
+              "name": "getAllLabels",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.DBID"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

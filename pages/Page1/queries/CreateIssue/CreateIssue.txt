@@ -1,5 +1,5 @@
 {
 	"title": {{this.params.title}},
   "body": {{this.params.url}},
-  "labels": ["Integrations Pod General", "Bug"]
+  "labels": {{["Bug"].concat(selected_labels.selectedOptionValues)}}
 }
