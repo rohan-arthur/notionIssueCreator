@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"title\": {{this.params.title}},\n  \"body\": {{this.params.url}},\n  \"labels\": {{[\"Bug\"].concat(selected_labels.selectedOptionValues)}}\n}",
+      "body": "{\n\t\"title\": {{this.params.title}},\n  \"body\": {{this.params.url}},\n  \"labels\": {{issueType.selectedOptionValue+\",\".concat(selected_labels.selectedOptionValues)}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -51,7 +51,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "[\"Bug\"].concat(selected_labels.selectedOptionValues)",
+      "issueType.selectedOptionValue+\",\".concat(selected_labels.selectedOptionValues)",
       "this.params.title",
       "this.params.url"
     ],
