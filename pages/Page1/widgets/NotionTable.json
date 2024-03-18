@@ -78,7 +78,7 @@
         {"key": "primaryColumns.customColumn1.isDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 53,
+    "bottomRow": 120,
     "columnWidthMap": {"Title": 383},
     "parentRowSpace": 10,
     "hideCard": false,
