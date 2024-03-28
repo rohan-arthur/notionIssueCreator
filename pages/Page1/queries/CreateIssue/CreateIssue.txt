@@ -1,5 +1,5 @@
 {
 	"title": {{this.params.title}},
   "body": {{this.params.url}},
-  "labels": {{issueType.selectedOptionValue+",".concat(selected_labels.selectedOptionValues)}}
+  "labels": {{selected_labels.selectedOptionValues.concat(issueType.selectedOptionValue)}}
 }

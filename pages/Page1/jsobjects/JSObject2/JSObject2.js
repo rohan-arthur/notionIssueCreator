@@ -66,5 +66,22 @@ export default {
 	async myFun2 () {
 		//	use async-await or promises
 		//	await storeValue('varName', 'hello world')
+	},
+	async createIssueIfNotExists_debug () {
+		try{
+			if(NotionTable.selectedRow.properties["Github issue"].rich_text[0].plain_text){
+				await showAlert("Issue already exists: "+ NotionTable.selectedRow.properties.GitHub_URL.rich_text[0].plain_text, "error");
+				return NotionTable.selectedRow.properties.GitHub_URL.rich_text[0].plain_text;
+			}
+		}
+		catch(e){ 
+			const createdIssueResponse = await CreateIssue.run({title: NotionTable.selectedRow.Title, url: NotionTable.selectedRow.URL});
+			const issueLink = createdIssueResponse.html_url;
+			const urlUpdated = await UpdateURLCopy.run({page:NotionTable.selectedRow.URL.match(/-(\w+)$/)[1], issueLink: issueLink});
+			//await showAlert("Issue created: "+ issueLink, "success");
+			return urlUpdated;
+			
+		}
+
 	}
 }
