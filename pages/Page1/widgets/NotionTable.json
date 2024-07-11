@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 120,
+  "bottomRow": 118,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -38,6 +38,7 @@
   ],
   "columnUpdatedAt": 1710751464286,
   "columnWidthMap": {
+    "Github_issue": 464,
     "Title": 383
   },
   "defaultPageSize": 0,
@@ -276,7 +277,7 @@
     "Display"
   ],
   "textSize": "0.875rem",
-  "topRow": 25,
+  "topRow": 23,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

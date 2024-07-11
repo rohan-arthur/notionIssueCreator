@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 23,
   "boxShadow": "none",
   "defaultOptionValue": "Task",
   "displayName": "Select",
@@ -61,7 +61,7 @@
     "Suggested",
     "Select"
   ],
-  "topRow": 18,
+  "topRow": 16,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "gv4n5urh97",
