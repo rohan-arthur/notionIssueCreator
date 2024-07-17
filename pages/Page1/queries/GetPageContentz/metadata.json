@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "65cde6198b2c8e6d749bd8ed_65cde6198b2c8e6d749bd908",
-  "id": "Page1_GetPageContent",
+  "gitSyncId": "65e1814da87ac00c2a5ea14c_d48f7733-be84-4b76-af3c-9a51569f9f13",
+  "id": "Page1_GetPageContentz",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "blocks/{{this.params.id}}/children",
+      "path": "blocks/ed6fdf84-f281-4e07-92c2-0eb06f34cb45/children",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,13 +32,9 @@
       "name": "Notion (1)",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": false,
-    "name": "GetPageContent",
+    "name": "GetPageContentz",
     "pageId": "Page1",
     "userSetOnLoad": false
   }

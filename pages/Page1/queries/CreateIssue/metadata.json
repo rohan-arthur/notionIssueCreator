@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"title\": {{this.params.title}},\n  \"body\": {{this.params.url}},\n  \"labels\": {{selected_labels.selectedOptionValues.concat(issueType.selectedOptionValue)}}\n}",
+      "body": "{\n\t\"title\": {{this.params.title}},\n  \"body\": \"Notion Link: \"+{{this.params.url}}+\"\\n\\nNotion Content: \"+{{this.params.pageContent}}\"\n  \"labels\": {{selected_labels.selectedOptionValues.concat(issueType.selectedOptionValue)}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

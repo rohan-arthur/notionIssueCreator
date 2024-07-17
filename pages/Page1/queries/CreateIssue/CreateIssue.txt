@@ -1,5 +1,5 @@
 {
 	"title": {{this.params.title}},
-  "body": {{this.params.url}},
+  "body": "Notion Link: "+{{this.params.url}}+"\n\nNotion Content: "+{{this.params.pageContent}}"
   "labels": {{selected_labels.selectedOptionValues.concat(issueType.selectedOptionValue)}}
 }
